@@ -40,9 +40,9 @@
     }
 
     .mapboxgl-popup-content {
-      font: 200 10px/17px 'Source Sans Pro', 'Helvetica Neue', Sans-serif;
+      font: 100 10px/10px 'Source Sans Pro', 'Helvetica Neue', Sans-serif;
       padding: 0;
-      width: 280px;
+      width: 260px;
     }
 
     .mapboxgl-popup-content-wrapper {
@@ -50,12 +50,12 @@
     }
 
     .mapboxgl-popup-content h3 {
-      background: rgb(37, 40, 80);
+      background: rgb(0, 0, 255);
       text-align: center;
       color: #fff;
       margin: 0;
       display: block;
-      padding: 10px;
+      padding: 5px;
       font-weight: 100;
       margin-top: -5px;
     }
@@ -63,7 +63,7 @@
     .mapboxgl-popup-content h4 {
       margin: 0;
       display: block;
-      padding: 10px 3px 10px 10px;
+      padding: 5px 5px 5px 5px;
       font-weight: 100;
     }
 
@@ -137,7 +137,7 @@
 
           // create a variable for your markup and add it to the map 
           var marker = new mapboxgl.Marker({
-              color: 'purple'
+              color: 'blue'
             })
             .setLngLat([row.Longitud, row.Latitud])
             .setPopup(popup)
